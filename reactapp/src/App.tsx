@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <h1>React APp</h1>
+      <h1>React APP</h1>
       <h1>Weather Forecast</h1>
       <ul>
         {data.map((item) => (
