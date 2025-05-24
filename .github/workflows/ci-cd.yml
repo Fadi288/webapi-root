@@ -1,53 +1,30 @@
-name: Build and Push Docker Images for Changed Projects
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v3
+    with:
+      fetch-depth: 0 # fetch full history for diff
 
-on:
-  push:
-    branches:
-      - main
+  - name: Get list of changed files
+    id: changed-files
+    run: |
+      # If this is the first commit on the branch (no before SHA), diff against main
+      if [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+        git fetch origin main
+        git diff --name-only origin/main HEAD > files.txt
+      else
+        git diff --name-only ${{ github.event.before }} ${{ github.sha }} > files.txt
+      fi
+      echo "Changed files:"
+      cat files.txt
+      # Set output for use in other jobs (e.g. join into a space-separated string)
+      echo "files=$(paste -sd' ' files.txt)" >> $GITHUB_OUTPUT
 
-jobs:
-  build-and-push:
-    runs-on: ubuntu-latest
+  - name: Build WebAPI if it changed
+    if: ${{ contains(steps.changed-files.outputs.files, 'webapi/') }}
+    run: |
+      echo "webapi/ changed – running WebAPI build..."
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Detect changed projects
-        id: changes
-        run: |
-          echo "Changed folders:"
-          # Get the commit range — fallback to first commit if needed
-          if git rev-parse HEAD^ >/dev/null 2>&1; then
-            base=$(git rev-parse HEAD^)
-          else
-            base=$(git rev-list --max-parents=0 HEAD)
-          fi
-          echo "Base commit: $base"
-          changed_folders=$(git diff --name-only $base HEAD | grep / | cut -d/ -f1 | sort -u | tr '\n' ' ')
-          echo "Detected: $changed_folders"
-          echo "changed=$changed_folders" >> $GITHUB_OUTPUT
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-
-      - name: Build and Push WebAPI image
-        if: contains(steps.changes.outputs.changed, 'webapi')
-        uses: docker/build-push-action@v4
-        with:
-          context: ./webapi
-          file: ./webapi/Dockerfile.prod
-          push: true
-          tags: fadisami/webapiapp:prod
-
-      - name: Build and Push RazorApp image
-        if: contains(steps.changes.outputs.changed, 'razorapp')
-        uses: docker/build-push-action@v4
-        with:
-          context: ./razorapp
-          file: ./razorapp/Dockerfile.prod
-          push: true
-          tags: fadisami/razorapp:prod
+  - name: Build RazorApp if it changed
+    if: ${{ contains(steps.changed-files.outputs.files, 'razorapp/') }}
+    run: |
+      echo "razorapp/ changed – running RazorApp build..."
