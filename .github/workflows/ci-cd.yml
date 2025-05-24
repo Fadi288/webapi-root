@@ -17,8 +17,8 @@ jobs:
         id: changes
         run: |
           echo "Changed folders:"
-          changed_folders=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep / | cut -d/ -f1 | sort -u | tr '\n' ' ')
-          echo "$changed_folders"
+          changed_folders=$(git diff --name-only HEAD^ HEAD | grep / | cut -d/ -f1 | sort -u | tr '\n' ' ')
+          echo "Detected: $changed_folders"
           echo "changed=$changed_folders" >> $GITHUB_OUTPUT
 
       - name: Login to Docker Hub
