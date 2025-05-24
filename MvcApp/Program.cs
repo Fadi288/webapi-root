@@ -53,7 +53,6 @@ app.MapGet("/persons", async (AppDbContext ctx) => {
 app.MapGet("/person", async (AppDbContext ctx) =>
 {
     return await ctx.Persons.FirstOrDefaultAsync();
-
 });
 
 //app.UseHttpsRedirection();

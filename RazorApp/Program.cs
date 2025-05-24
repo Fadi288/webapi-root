@@ -33,9 +33,10 @@ if (!app.Environment.IsDevelopment())
 app.MapGet("/persons", async (AppDbContext ctx) => {
     return await ctx.Persons.ToListAsync();
 });
-//app.MapGet("/person", async (AppDbContext ctx) => {
-//    return await ctx.Persons.FirstOrDefaultAsync();
-//});
+app.MapGet("/person", async (AppDbContext ctx) =>
+{
+    return await ctx.Persons.FirstOrDefaultAsync();
+});
 
 //app.UseHttpsRedirection();
 

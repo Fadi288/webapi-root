@@ -10,7 +10,7 @@ var client = new HttpClient(handler)
     BaseAddress = new Uri("https://webapi:443") // Docker internal URL
 };
 
-Console.WriteLine("..Calling WebApi...");
+Console.WriteLine("..Calling WebApii...");
 
 try
 {
