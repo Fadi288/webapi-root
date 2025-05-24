@@ -65,7 +65,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: razorapp/Dockerfile.prod
+          file: RazorApp/Dockerfile.prod
           push: true
           tags: fadisami/razorapp:prod
 
@@ -74,7 +74,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: mvcapp/Dockerfile.prod
+          file: MvcApp/Dockerfile.prod
           push: true
           tags: fadisami/mvcapp:prod
 
@@ -83,7 +83,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: consoleapp/Dockerfile.prod
+          file: ConsoleApp/Dockerfile.prod
           push: true
           tags: fadisami/consoleapp:prod
 
