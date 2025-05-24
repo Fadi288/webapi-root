@@ -64,10 +64,10 @@ using (var scope = app.Services.CreateScope())
 app.MapGet("/persons", async (AppDbContext ctx) => {
     return await ctx.Persons.ToListAsync();
     });
-app.MapGet("/allpersons", async (AppDbContext ctx) =>
-{
-    return await ctx.Persons.ToListAsync();
-});
+//app.MapGet("/allpersons", async (AppDbContext ctx) =>
+//{
+//    return await ctx.Persons.ToListAsync();
+//});
 
 app.MapGet("/person", async (AppDbContext ctx, string name ) => {
     ctx.Persons.Add(new Person { FullName = name, BirthDate = DateTime.Now });
