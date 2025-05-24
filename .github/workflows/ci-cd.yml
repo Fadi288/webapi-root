@@ -57,7 +57,7 @@ jobs:
           tags: fadisami/webapiapp:prod
 
       - name: Build and Push RazorApp image
-        if: contains(steps.changes.outputs.changed, 'razorapp')
+        if: ${{ contains(steps.changed-files.outputs.files, 'razorapp/') }}
         uses: docker/build-push-action@v4
         with:
           context: .
@@ -66,7 +66,7 @@ jobs:
           tags: fadisami/razorapp:prod
 
       - name: Build and Push mvcapp image
-        if: contains(steps.changes.outputs.changed, 'mvcapp')
+        if: ${{ contains(steps.changed-files.outputs.files, 'mvcapp/') }}
         uses: docker/build-push-action@v4
         with:
           context: .
@@ -75,7 +75,7 @@ jobs:
           tags: fadisami/mvcapp:prod
 
       - name: Build and Push consoleapp image
-        if: contains(steps.changes.outputs.changed, 'consoleapp')
+        if: ${{ contains(steps.changed-files.outputs.files, 'consoleapp/') }}
         uses: docker/build-push-action@v4
         with:
           context: .
@@ -84,7 +84,7 @@ jobs:
           tags: fadisami/consoleapp:prod
 
       - name: Build and Push reactapp image
-        if: contains(steps.changes.outputs.changed, 'reactapp')
+        if: ${{ contains(steps.changed-files.outputs.files, 'reactapp/') }}
         uses: docker/build-push-action@v4
         with:
           context: .
@@ -93,7 +93,7 @@ jobs:
           tags: fadisami/reactapp:prod
 
       - name: Build and Push angularapp image
-        if: contains(steps.changes.outputs.changed, 'angularapp')
+        if: ${{ contains(steps.changed-files.outputs.files, 'angularapp/') }}
         uses: docker/build-push-action@v4
         with:
           context: .
