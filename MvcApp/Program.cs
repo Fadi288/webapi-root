@@ -51,19 +51,8 @@ app.MapGet("/persons", async (AppDbContext ctx) => {
     return await ctx.Persons.ToListAsync();
 });
 app.MapGet("/person", async (AppDbContext ctx) => {
-    //try
-    //{
-    //ctx.Persons.Add(new Person { FullName = name, BirthDate = DateTime.Now });
-    //await ctx.SaveChangesAsync();
-    //return await ctx.Persons.ToListAsync();
-
     return await ctx.Persons.FirstOrDefaultAsync();
 
-    //}
-    //catch (Exception ex)
-    //{
-    //    return Task.FromResult(ex.Message);
-    //}
 });
 
 //app.UseHttpsRedirection();
