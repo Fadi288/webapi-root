@@ -1,4 +1,4 @@
-name: Build and Push Docker Images for Changed Projectss
+name: Build and Push Docker Images for Changed Projects
 
 on:
   push:
@@ -17,8 +17,9 @@ jobs:
         id: changes
         run: |
           echo "Changed folders:"
-          # Get list of changed folders in the push commit(s)
-          echo "::set-output name=changed::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep / | cut -d/ -f1 | sort -u | tr '\n' ' ')"
+          changed_folders=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep / | cut -d/ -f1 | sort -u | tr '\n' ' ')
+          echo "$changed_folders"
+          echo "changed=$changed_folders" >> $GITHUB_OUTPUT
       
       - name: Show changed projects
         run: echo "Changed projects: ${{ steps.changes.outputs.changed }}"
@@ -27,7 +28,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD}}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
       - name: Build and Push WebAPI image
         if: contains(steps.changes.outputs.changed, 'webapi')
