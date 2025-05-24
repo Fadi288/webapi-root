@@ -54,8 +54,8 @@ jobs:
         if: ${{ contains(steps.changed-files.outputs.files, 'webapi/') }}
         uses: docker/build-push-action@v4
         with:
-          context: ./webapi
-          file: Dockerfile.prod
+          context: .
+          file: WebApi/Dockerfile.prod
           push: true
           tags: fadisami/webapiapp:prod
 
