@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  webapi:
+    build:
+      context: .
+      dockerfile: WebApi/Dockerfile
+    ports:
+      - "7000:5000"
+      - "7001:5001"
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+    environment:
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fodfod
+
+  razorapp:
+    build:
+      context: .
+      dockerfile: RazorApp/Dockerfile
+    ports:
+      - "7002:5002"
+      - "7003:5003"
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+    depends_on:
+      - webapi
+    
+  mvcapp:
+    build:
+      context: .
+      dockerfile: MvcApp/Dockerfile
+    ports:
+      - "8000:6000"
+      - "8001:6001"
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+
+  consoleapp:
+    build:
+      context: .
+      dockerfile: ConsoleApp/Dockerfile
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+    depends_on:
+      - webapi
+
+  reactapp:
+    build:
+      context: ./reactapp
+      dockerfile: Dockerfile
+    ports:
+      - "7004:80"      # HTTP (React dev server default)
+      - "7005:443"      # HTTPS for React dev server
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+    depends_on:
+      - webapi
+
+  angularapp:
+    build:
+      context: ./angularapp
+      dockerfile: Dockerfile
+    ports:
+      - "7006:80"
+      - "7007:443"
+    volumes:
+      - ./certs:/https:ro
+    networks:
+      - appnetwork
+    depends_on:
+      - webapi
+
+networks:
+  appnetwork:
+    driver: bridge

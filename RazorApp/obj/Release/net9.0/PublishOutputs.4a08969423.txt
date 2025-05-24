@@ -1,0 +1,7 @@
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\RazorApp.exe
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\appsettings.Development.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\appsettings.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\RazorApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\RazorApp.deps.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\RazorApp.runtimeconfig.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\RazorApp\bin\Release\net9.0\publish\RazorApp.pdb

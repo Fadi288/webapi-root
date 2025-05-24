@@ -1,0 +1,30 @@
+﻿# =============================
+# Build stage
+# =============================
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+# Copy csproj and restore
+COPY ConsoleApp/ConsoleApp.csproj ./ConsoleApp/
+RUN dotnet restore ./ConsoleApp/ConsoleApp.csproj
+
+# Copy everything and publish
+COPY ConsoleApp/. ./ConsoleApp/
+WORKDIR /src/ConsoleApp
+RUN dotnet publish "ConsoleApp.csproj" -c Release -o /app/publish
+
+# =============================
+# Runtime stage
+# =============================
+FROM mcr.microsoft.com/dotnet/runtime:9.0 AS runtime
+WORKDIR /app
+
+# Copy published output
+COPY --from=build /app/publish .
+
+# Copy certificates for HTTPS trust
+COPY certs/fadragon.pem /usr/local/share/ca-certificates/fadragon.crt
+RUN update-ca-certificates
+
+# Entry point
+ENTRYPOINT ["dotnet", "ConsoleApp.dll"]

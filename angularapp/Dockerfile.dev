@@ -1,0 +1,17 @@
+# Stage 1: Use Node for dev server
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Copy package files and install deps
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copy rest of the source
+COPY . .
+
+# Expose port 4200 (default Angular dev server port)
+EXPOSE 4200
+
+# Run Angular dev server with host 0.0.0.0 and disable host check for container access
+CMD ["npm", "start", "--", "--host", "0.0.0.0"]

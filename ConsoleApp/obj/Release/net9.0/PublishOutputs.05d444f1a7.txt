@@ -1,0 +1,5 @@
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Release\net9.0\publish\ConsoleApp.exe
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Release\net9.0\publish\ConsoleApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Release\net9.0\publish\ConsoleApp.deps.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Release\net9.0\publish\ConsoleApp.runtimeconfig.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Release\net9.0\publish\ConsoleApp.pdb

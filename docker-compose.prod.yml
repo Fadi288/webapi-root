@@ -1,0 +1,133 @@
+version: '3.9'
+
+services:
+  webapi:
+    image: fadisami/webapiapp:prod
+    build:
+      context: ./WebApi # your WebApi project folder with Dockerfile
+      dockerfile: Dockerfile.prod # default name, optional to specify
+    ports:
+      - "7000:5000" # expose container port 5000 to host 7000
+      - "7001:443" # HTTPS
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000;https://+:443
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fadragon.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fodfod # replace with real cert password
+    # No volume mount here — use the image’s built publish folder
+    # No hot reload, just run the published app
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+    command: [ "dotnet", "WebApi.dll" ]
+    depends_on:
+      - sqlserver
+    networks:
+      - webapinetwork
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "Fodfod@123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+    networks:
+      - webapinetwork
+  razorapp:
+    image: fadisami/razorapp:prod
+    build:
+      context: ./RazorApp # your WebApi project folder with Dockerfile
+      dockerfile: Dockerfile.prod # default name, optional to specify
+    ports:
+      - "8000:5000" # expose container port 5000 to host 7000
+      - "8001:443" # expose container port 5000 to host 7000
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000;https://+:443
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fadragon.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fodfod # replace with real cert password
+    # No volume mount here — use the image’s built publish folder
+    # No hot reload, just run the published app
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+    # No volume mount here — use the image’s built publish folder
+    # No hot reload, just run the published app
+    command: [ "dotnet", "RazorApp.dll" ]
+    depends_on:
+      - sqlserver
+    networks:
+      - webapinetwork
+  mvcapp:
+    image: fadisami/mvcapp:prod
+    build:
+      context: ./MvcApp # your WebApi project folder with Dockerfile
+      dockerfile: Dockerfile.prod # default name, optional to specify
+    ports:
+      - "9000:5000" # expose container port 5000 to host 9000
+      - "9001:443" # expose container port 5000 to host 9001
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000;https://+:443
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fadragon.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fodfod # replace with real cert password
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+
+    # No volume mount here — use the image’s built publish folder
+    # No hot reload, just run the published app
+    command: [ "dotnet", "MvcApp.dll" ]
+    depends_on:
+      - sqlserver
+    networks:
+      - webapinetwork
+  consoleapp:
+    image: fadisami/consoleapp:prod
+    build:
+      context: ./consoleapp
+      dockerfile: Dockerfile.prod
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fadragon.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=fodfod
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+    command: [ "dotnet", "ConsoleApp.dll" ]
+  reactapp:
+    image: fadisami/reactapp:prod
+    build:
+      context: ./reactapp
+      dockerfile: Dockerfile.prod
+      args:
+        REACT_APP_API_URL: https://localhost:7001
+    ports:
+      - "3000:80"
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+    environment:
+      - HTTPS_CERT_PATH=/https/fadragon.pfx
+      - HTTPS_CERT_PASSWORD=fodfod
+    depends_on:
+      - webapi
+  angularapp:
+    image: fadisami/angularapp:prod
+    build:
+      context: ./angularapp
+      dockerfile: Dockerfile.prod
+    ports:
+      - "4200:80" # map container 80 (nginx) to host 4200
+    volumes:
+      - ./certs:/https:ro # ✅ mount certs folder read-only
+    environment:
+      - HTTPS_CERT_PATH=/https/fadragon.pfx
+      - HTTPS_CERT_PASSWORD=fodfod
+    depends_on:
+      - webapi
+
+networks:
+  webapinetwork:
+    driver: bridge
+
+volumes:
+  sqlserverdata:

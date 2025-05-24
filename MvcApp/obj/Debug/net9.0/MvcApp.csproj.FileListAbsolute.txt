@@ -1,0 +1,317 @@
+/src/bin/Debug/net9.0/appsettings.Development.json
+/src/bin/Debug/net9.0/appsettings.json
+/src/bin/Debug/net9.0/MvcApp.staticwebassets.runtime.json
+/src/bin/Debug/net9.0/MvcApp.staticwebassets.endpoints.json
+/src/bin/Debug/net9.0/MvcApp
+/src/bin/Debug/net9.0/MvcApp.deps.json
+/src/bin/Debug/net9.0/MvcApp.runtimeconfig.json
+/src/bin/Debug/net9.0/MvcApp.dll
+/src/bin/Debug/net9.0/MvcApp.pdb
+/src/obj/Debug/net9.0/MvcApp.GeneratedMSBuildEditorConfig.editorconfig
+/src/obj/Debug/net9.0/MvcApp.AssemblyInfoInputs.cache
+/src/obj/Debug/net9.0/MvcApp.AssemblyInfo.cs
+/src/obj/Debug/net9.0/MvcApp.csproj.CoreCompileInputs.cache
+/src/obj/Debug/net9.0/MvcApp.MvcApplicationPartsAssemblyInfo.cache
+/src/obj/Debug/net9.0/MvcApp.RazorAssemblyInfo.cache
+/src/obj/Debug/net9.0/MvcApp.RazorAssemblyInfo.cs
+/src/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/src/obj/Debug/net9.0/scopedcss/bundle/MvcApp.styles.css
+/src/obj/Debug/net9.0/scopedcss/projectbundle/MvcApp.bundle.scp.css
+/src/obj/Debug/net9.0/compressed/xmsf9c8g2j-b9sayid5wm.gz
+/src/obj/Debug/net9.0/compressed/t275aryxhv-61n19gt1b8.gz
+/src/obj/Debug/net9.0/compressed/kz0bt08t2o-xtxxf3hu2r.gz
+/src/obj/Debug/net9.0/compressed/2gtrkbalw9-bqjiyaj88i.gz
+/src/obj/Debug/net9.0/compressed/ioobtl1n08-c2jlpeoesf.gz
+/src/obj/Debug/net9.0/compressed/cp5sd9859c-erw9l3u2r3.gz
+/src/obj/Debug/net9.0/compressed/g0zf83fpym-aexeepp0ev.gz
+/src/obj/Debug/net9.0/compressed/nvaec6egyt-d7shbmvgxk.gz
+/src/obj/Debug/net9.0/compressed/hfbgymreus-ausgxo2sd3.gz
+/src/obj/Debug/net9.0/compressed/mtd71l9zco-k8d9w2qqmf.gz
+/src/obj/Debug/net9.0/compressed/sflf8hpv0g-cosvhxvwiu.gz
+/src/obj/Debug/net9.0/compressed/t0fco0suua-ub07r2b239.gz
+/src/obj/Debug/net9.0/compressed/he4hylsamf-fvhpjtyr6v.gz
+/src/obj/Debug/net9.0/compressed/yxooahhywb-b7pk76d08c.gz
+/src/obj/Debug/net9.0/compressed/8hgd59jy7w-fsbi9cje9m.gz
+/src/obj/Debug/net9.0/compressed/ki003hrdgf-rzd6atqjts.gz
+/src/obj/Debug/net9.0/compressed/gaphqbqt3m-ee0r1s7dh0.gz
+/src/obj/Debug/net9.0/compressed/t1x05s9d2u-dxx9fxp4il.gz
+/src/obj/Debug/net9.0/compressed/ki4on9pj85-jd9uben2k1.gz
+/src/obj/Debug/net9.0/compressed/69e9v1pt7k-khv3u5hwcm.gz
+/src/obj/Debug/net9.0/compressed/84nxq6v926-r4e9w2rdcm.gz
+/src/obj/Debug/net9.0/compressed/pwuxipibg4-lcd1t2u6c8.gz
+/src/obj/Debug/net9.0/compressed/7b209l8bhn-c2oey78nd0.gz
+/src/obj/Debug/net9.0/compressed/nzq56gil5p-tdbxkamptv.gz
+/src/obj/Debug/net9.0/compressed/8ekwp1neqf-j5mq2jizvt.gz
+/src/obj/Debug/net9.0/compressed/8xdasb8080-06098lyss8.gz
+/src/obj/Debug/net9.0/compressed/xm0na8ccg7-nvvlpmu67g.gz
+/src/obj/Debug/net9.0/compressed/h2toctn5hl-s35ty4nyc5.gz
+/src/obj/Debug/net9.0/compressed/gl1o5pw0xc-pj5nd1wqec.gz
+/src/obj/Debug/net9.0/compressed/frsrg9064a-46ein0sx1k.gz
+/src/obj/Debug/net9.0/compressed/jk9sa0lvk8-v0zj4ognzu.gz
+/src/obj/Debug/net9.0/compressed/vtmxbttb0m-37tfw0ft22.gz
+/src/obj/Debug/net9.0/compressed/zcsh77z34b-hrwsygsryq.gz
+/src/obj/Debug/net9.0/compressed/e07p6rztbz-pk9g2wxc8p.gz
+/src/obj/Debug/net9.0/compressed/nkqbaktwhn-ft3s53vfgj.gz
+/src/obj/Debug/net9.0/compressed/ke02qc3xii-6cfz1n2cew.gz
+/src/obj/Debug/net9.0/compressed/6anxk6f634-6pdc2jztkx.gz
+/src/obj/Debug/net9.0/compressed/89ndbhrlco-493y06b0oq.gz
+/src/obj/Debug/net9.0/compressed/rljym9v7xk-iovd86k7lj.gz
+/src/obj/Debug/net9.0/compressed/zz3p8sp5bg-vr1egmr9el.gz
+/src/obj/Debug/net9.0/compressed/7jmcrzf1ma-kbrnm935zg.gz
+/src/obj/Debug/net9.0/compressed/w0ubp78rf9-jj8uyg4cgr.gz
+/src/obj/Debug/net9.0/compressed/1ypuvt0hkr-y7v9cxd14o.gz
+/src/obj/Debug/net9.0/compressed/jp3y97n0ty-notf2xhcfb.gz
+/src/obj/Debug/net9.0/compressed/qax19ns640-h1s4sie4z3.gz
+/src/obj/Debug/net9.0/compressed/avcr3p8t66-63fj8s7r0e.gz
+/src/obj/Debug/net9.0/compressed/ad72lbs9nk-0j3bgjxly4.gz
+/src/obj/Debug/net9.0/compressed/0b6ej13ji9-47otxtyo56.gz
+/src/obj/Debug/net9.0/compressed/0o4btaj5yh-4v8eqarkd7.gz
+/src/obj/Debug/net9.0/compressed/ngbto92a8x-356vix0kms.gz
+/src/obj/Debug/net9.0/compressed/pyvpp463fa-83jwlth58m.gz
+/src/obj/Debug/net9.0/compressed/ghpxon11ia-mrlpezrjn3.gz
+/src/obj/Debug/net9.0/compressed/mbg7ymlm78-lzl9nlhx6b.gz
+/src/obj/Debug/net9.0/compressed/id7p5diuev-ag7o75518u.gz
+/src/obj/Debug/net9.0/compressed/91kblyqgd7-x0q3zqp4vz.gz
+/src/obj/Debug/net9.0/compressed/wu6ywqfy4o-0i3buxo5is.gz
+/src/obj/Debug/net9.0/compressed/z37sbe3ung-o1o13a6vjx.gz
+/src/obj/Debug/net9.0/compressed/uzmolz5y8z-ttgo8qnofa.gz
+/src/obj/Debug/net9.0/compressed/7nug34yic5-2z0ns9nrw6.gz
+/src/obj/Debug/net9.0/compressed/lndvjqaea2-muycvpuwrr.gz
+/src/obj/Debug/net9.0/compressed/rwbu59pwwe-87fc7y1x7t.gz
+/src/obj/Debug/net9.0/compressed/exoa81flii-mlv21k5csn.gz
+/src/obj/Debug/net9.0/compressed/jqwjk5kkst-ijkurqhc7b.gz
+/src/obj/Debug/net9.0/compressed/rypohmmzfu-ijkurqhc7b.gz
+/src/obj/Debug/net9.0/staticwebassets.build.json
+/src/obj/Debug/net9.0/staticwebassets.build.json.cache
+/src/obj/Debug/net9.0/staticwebassets.development.json
+/src/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/src/obj/Debug/net9.0/MvcApp.dll
+/src/obj/Debug/net9.0/refint/MvcApp.dll
+/src/obj/Debug/net9.0/MvcApp.pdb
+/src/obj/Debug/net9.0/MvcApp.genruntimeconfig.cache
+/src/obj/Debug/net9.0/ref/MvcApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\appsettings.Development.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\appsettings.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.staticwebassets.runtime.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.staticwebassets.endpoints.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.exe
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.deps.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.runtimeconfig.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\MvcApp.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.AssemblyInfoInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.AssemblyInfo.cs
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.csproj.CoreCompileInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.RazorAssemblyInfo.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.RazorAssemblyInfo.cs
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\scopedcss\bundle\MvcApp.styles.css
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\scopedcss\projectbundle\MvcApp.bundle.scp.css
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\xmsf9c8g2j-b9sayid5wm.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\t275aryxhv-61n19gt1b8.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\kz0bt08t2o-xtxxf3hu2r.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\2gtrkbalw9-bqjiyaj88i.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ioobtl1n08-c2jlpeoesf.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\cp5sd9859c-erw9l3u2r3.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\g0zf83fpym-aexeepp0ev.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\nvaec6egyt-d7shbmvgxk.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\hfbgymreus-ausgxo2sd3.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\mtd71l9zco-k8d9w2qqmf.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\sflf8hpv0g-cosvhxvwiu.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\t0fco0suua-ub07r2b239.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\he4hylsamf-fvhpjtyr6v.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\yxooahhywb-b7pk76d08c.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\8hgd59jy7w-fsbi9cje9m.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ki003hrdgf-rzd6atqjts.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\gaphqbqt3m-ee0r1s7dh0.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\t1x05s9d2u-dxx9fxp4il.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ki4on9pj85-jd9uben2k1.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\69e9v1pt7k-khv3u5hwcm.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\84nxq6v926-r4e9w2rdcm.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\pwuxipibg4-lcd1t2u6c8.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\7b209l8bhn-c2oey78nd0.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\nzq56gil5p-tdbxkamptv.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\8ekwp1neqf-j5mq2jizvt.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\8xdasb8080-06098lyss8.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\xm0na8ccg7-nvvlpmu67g.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\h2toctn5hl-s35ty4nyc5.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\gl1o5pw0xc-pj5nd1wqec.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\frsrg9064a-46ein0sx1k.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\jk9sa0lvk8-v0zj4ognzu.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\vtmxbttb0m-37tfw0ft22.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\zcsh77z34b-hrwsygsryq.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\e07p6rztbz-pk9g2wxc8p.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\nkqbaktwhn-ft3s53vfgj.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ke02qc3xii-6cfz1n2cew.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\6anxk6f634-6pdc2jztkx.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\89ndbhrlco-493y06b0oq.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\rljym9v7xk-iovd86k7lj.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\zz3p8sp5bg-vr1egmr9el.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\7jmcrzf1ma-kbrnm935zg.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\w0ubp78rf9-jj8uyg4cgr.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\1ypuvt0hkr-y7v9cxd14o.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\jp3y97n0ty-notf2xhcfb.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\qax19ns640-h1s4sie4z3.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\avcr3p8t66-63fj8s7r0e.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ad72lbs9nk-0j3bgjxly4.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\0b6ej13ji9-47otxtyo56.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\0o4btaj5yh-4v8eqarkd7.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ngbto92a8x-356vix0kms.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\pyvpp463fa-83jwlth58m.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\ghpxon11ia-mrlpezrjn3.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\mbg7ymlm78-lzl9nlhx6b.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\id7p5diuev-ag7o75518u.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\91kblyqgd7-x0q3zqp4vz.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\wu6ywqfy4o-0i3buxo5is.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\z37sbe3ung-o1o13a6vjx.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\uzmolz5y8z-ttgo8qnofa.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\7nug34yic5-2z0ns9nrw6.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\lndvjqaea2-muycvpuwrr.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\rwbu59pwwe-87fc7y1x7t.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\exoa81flii-mlv21k5csn.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\jqwjk5kkst-s94vleo5zn.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\compressed\rypohmmzfu-s94vleo5zn.gz
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\staticwebassets.build.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\staticwebassets.development.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\refint\MvcApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.genruntimeconfig.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\ref\MvcApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Azure.Core.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Azure.Identity.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Humanizer.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.ClientModel.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.CodeDom.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.csproj.AssemblyReference.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\MvcApp\obj\Debug\net9.0\MvcApp.csproj.Up2Date

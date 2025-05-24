@@ -1,0 +1,14 @@
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\bin\Debug\net9.0\WebApiShared.deps.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\bin\Debug\net9.0\WebApiShared.runtimeconfig.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\bin\Debug\net9.0\WebApiShared.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\bin\Debug\net9.0\WebApiShared.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.csproj.AssemblyReference.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.AssemblyInfoInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.AssemblyInfo.cs
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.csproj.CoreCompileInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\refint\WebApiShared.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\WebApiShared.genruntimeconfig.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\WebApiShared\obj\Debug\net9.0\ref\WebApiShared.dll

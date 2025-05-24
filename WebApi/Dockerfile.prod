@@ -1,0 +1,34 @@
+# --- Build Stage ---
+#the official .NET 9 SDK image.
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+
+#Sets the working directory inside the container to /src.
+WORKDIR /src
+#Copies everything from your current directory on your host machine (where you run docker build)
+COPY . .
+
+#Runs dotnet restore inside the container, in /src, to download all NuGet dependencies.
+RUN dotnet restore
+
+#Builds your project in Release mode.
+#Publishes the output (compiled dlls, configs, etc.) into /app/publish inside the container.
+RUN dotnet publish -c Release -o /app/publish
+
+# --- Runtime Stage ---
+#Switches to a lighter base image with just the ASP.NET runtime — no SDK/tools.
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
+
+#Sets the working directory inside the runtime container to /app.
+#This is where your published app will live.
+WORKDIR /app
+
+# Optional: prepare HTTPS directory
+# RUN mkdir /https
+
+# Copies files from the previous build stage (--from=build) from /app/publish
+# (where the app was published)
+# into the current directory (.) — /app in this runtime container.
+# This means your published app is now available in /app in the runtime container.
+COPY --from=build /app/publish .
+
+ENTRYPOINT ["dotnet", "WebApi.dll"]

@@ -1,0 +1,72 @@
+version: '3.9'
+
+services:
+  webapi:
+    build:
+      context: ./WebApi
+      dockerfile: Dockerfile.dev
+      args:
+        DEV: "true" # optional, if used inside Dockerfile
+    ports:
+      - "7000:5000"
+    volumes:
+      - ./WebApi:/src # Mount source here to match Dockerfile WORKDIR /src
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+  razorapp:
+    build:
+      context: ./RazorApp
+      dockerfile: Dockerfile.dev
+      args:
+        DEV: "true" # optional, if used inside Dockerfile
+    ports:
+      - "8000:5000"
+    volumes:
+      - ./RazorApp:/src # Mount source here to match Dockerfile WORKDIR /src
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+  mvcapp:
+    build:
+      context: ./MvcApp
+      dockerfile: Dockerfile.dev
+      args:
+        DEV: "true" # optional, if used inside Dockerfile
+    ports:
+      - "9000:5000"
+    volumes:
+      - ./MvcApp:/src # Mount source here to match Dockerfile WORKDIR /src
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+  consoleapp:
+    build:
+      context: ./ConsoleApp
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./ConsoleApp:/src
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=true
+  reactapp:
+    build:
+      context: ./reactapp
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./reactapp:/app
+      - /app/node_modules # avoid overwriting node_modules with host
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+  angularapp:
+    build:
+      context: ./angularapp
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./angularapp:/app # bind mount source code for live reload
+      - /app/node_modules # prevent overwrite of node_modules by bind mount
+    environment:
+      - CHOKIDAR_USEPOLLING=true # useful for Docker on Windows/Mac for file watching

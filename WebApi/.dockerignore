@@ -1,0 +1,37 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor folders and files
+.vscode/
+*.code-workspace
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore Docker files if you want (optional)
+Dockerfile*
+docker-compose.*
+
+# Ignore temp files and OS metadata
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Ignore publish output if you keep it locally and don’t want to copy it into Docker context
+# publish/

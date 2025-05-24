@@ -1,0 +1,28 @@
+/src/bin/Debug/net9.0/ConsoleApp
+/src/bin/Debug/net9.0/ConsoleApp.deps.json
+/src/bin/Debug/net9.0/ConsoleApp.runtimeconfig.json
+/src/bin/Debug/net9.0/ConsoleApp.dll
+/src/bin/Debug/net9.0/ConsoleApp.pdb
+/src/obj/Debug/net9.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/src/obj/Debug/net9.0/ConsoleApp.AssemblyInfoInputs.cache
+/src/obj/Debug/net9.0/ConsoleApp.AssemblyInfo.cs
+/src/obj/Debug/net9.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/src/obj/Debug/net9.0/ConsoleApp.dll
+/src/obj/Debug/net9.0/refint/ConsoleApp.dll
+/src/obj/Debug/net9.0/ConsoleApp.pdb
+/src/obj/Debug/net9.0/ConsoleApp.genruntimeconfig.cache
+/src/obj/Debug/net9.0/ref/ConsoleApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+D:\Work\Fadi DotNet\Core\Docker\WebApi\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
