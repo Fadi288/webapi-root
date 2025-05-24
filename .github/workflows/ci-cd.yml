@@ -15,8 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Get list of changed files
-        id: changed-files
+      - name: Detect changed projects
+        id: changes
         run: |
           # If this is the first commit on the branch (no before SHA), diff against main
           if [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
@@ -29,9 +29,6 @@ jobs:
           cat files.txt
           # Set output for use in other jobs (e.g. join into a space-separated string)
           echo "files=$(paste -sd' ' files.txt)" >> $GITHUB_OUTPUT
-      - name: Detect changed projects
-        id: changes
-        run: |
           echo "Changed folders:"
           # Get the commit range — fallback to first commit if needed
           if git rev-parse HEAD^ >/dev/null 2>&1; then
@@ -63,7 +60,43 @@ jobs:
         if: contains(steps.changes.outputs.changed, 'razorapp')
         uses: docker/build-push-action@v4
         with:
-          context: ./razorapp
-          file: ./razorapp/Dockerfile.prod
+          context: .
+          file: razorapp/Dockerfile.prod
           push: true
           tags: fadisami/razorapp:prod
+
+      - name: Build and Push mvcapp image
+        if: contains(steps.changes.outputs.changed, 'mvcapp')
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: mvcapp/Dockerfile.prod
+          push: true
+          tags: fadisami/mvcapp:prod
+
+      - name: Build and Push consoleapp image
+        if: contains(steps.changes.outputs.changed, 'consoleapp')
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: consoleapp/Dockerfile.prod
+          push: true
+          tags: fadisami/consoleapp:prod
+
+      - name: Build and Push reactapp image
+        if: contains(steps.changes.outputs.changed, 'reactapp')
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: reactapp/Dockerfile.prod
+          push: true
+          tags: fadisami/reactapp:prod
+
+      - name: Build and Push angularapp image
+        if: contains(steps.changes.outputs.changed, 'angularapp')
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: angularapp/Dockerfile.prod
+          push: true
+          tags: fadisami/angularapp:prod
